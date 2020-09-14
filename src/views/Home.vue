@@ -27,15 +27,15 @@ export default {
   data () {
     return {
       readerSize: {
-        width: 440,
-        height: 680
+        width: 640,
+        height: 480
       },
       detecteds: []
     }
   },
   methods: {
     logIt (data) {
-      console.log('detected', data)
+      alert('detected', data)
     }
   }
 }
